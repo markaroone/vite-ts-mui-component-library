@@ -1,12 +1,7 @@
 import { Button, ButtonProps } from '@mui/material';
 
-export type CustomButtonProps = Omit<ButtonProps, 'children'> & {
-  children?: string;
-};
+export type CustomButtonProps = ButtonProps;
 
-export const CustomButton = ({
-  children = 'Custom Button',
-  ...props
-}: CustomButtonProps) => {
-  return <Button children={children} {...props} />;
+export const CustomButton = ({ ...props }: CustomButtonProps) => {
+  return <Button {...props} />;
 };
