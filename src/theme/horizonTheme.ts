@@ -16,10 +16,13 @@ declare module '@mui/material/Button' {
   }
 }
 
-const baseTheme = createTheme({
+export const horizonTheme = createTheme({
   palette: {
     primary: {
       main: '#0099FF',
+    },
+    custom: {
+      main: '#FF5733',
     },
   },
   components: {
@@ -31,13 +34,13 @@ const baseTheme = createTheme({
   },
 });
 
-export const horizonTheme = createTheme(baseTheme, {
-  pallete: {
-    custom: baseTheme.palette.augmentColor({
-      color: {
-        main: '#FF5733',
-      },
-      name: 'custom',
-    }),
-  },
-});
+// export const horizonTheme = createTheme(baseTheme, {
+//   pallete: {
+//     custom: baseTheme.palette.augmentColor({
+//       color: {
+//         main: '#FF5733',
+//       },
+//       name: 'custom',
+//     }),
+//   },
+// });
