@@ -16,7 +16,7 @@ declare module '@mui/material/Button' {
   }
 }
 
-export let horizonTheme = createTheme({
+const baseTheme = createTheme({
   palette: {
     primary: {
       main: '#0099FF',
@@ -31,9 +31,9 @@ export let horizonTheme = createTheme({
   },
 });
 
-horizonTheme = createTheme(horizonTheme, {
+export const horizonTheme = createTheme(baseTheme, {
   pallete: {
-    custom: horizonTheme.palette.augmentColor({
+    custom: baseTheme.palette.augmentColor({
       color: {
         main: '#FF5733',
       },
