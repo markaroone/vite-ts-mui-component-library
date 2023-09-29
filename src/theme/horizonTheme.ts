@@ -14,10 +14,12 @@ declare module '@mui/material/Button' {
   interface ButtonPropsColorOverrides {
     custom: true;
   }
+  interface ButtonPropsVariantOverrides {
+    horizonPrimary: true;
+  }
 }
 
-// const salmonBase = '#FF5733';
-const salmonBase = '#ae3ec9';
+const salmonBase = '#FF5733';
 const salmonMain = alpha(salmonBase, 0.7);
 
 export const horizonTheme = createTheme({
@@ -38,6 +40,22 @@ export const horizonTheme = createTheme({
       defaultProps: {
         disableRipple: true,
       },
+    },
+    MuiButton: {
+      variants: [
+        {
+          props: {
+            variant: 'horizonPrimary',
+          },
+          style: {
+            backgroundColor: '#0099FF',
+            color: '#FFF',
+            '&:hover': {
+              backgroundColor: '#6C8AA3',
+            },
+          },
+        },
+      ],
     },
   },
 });
