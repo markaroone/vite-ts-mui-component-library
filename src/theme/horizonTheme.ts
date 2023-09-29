@@ -53,6 +53,10 @@ export const horizonTheme = createTheme({
             '&:hover': {
               backgroundColor: '#6C8AA3',
             },
+            '&.Mui-disabled': {
+              bacgroundColor: 'inherit',
+              color: 'inherit',
+            },
           },
         },
       ],
