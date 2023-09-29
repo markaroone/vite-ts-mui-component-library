@@ -16,7 +16,8 @@ declare module '@mui/material/Button' {
   }
 }
 
-const salmonBase = '#FF5733';
+// const salmonBase = '#FF5733';
+const salmonBase = '#ae3ec9';
 const salmonMain = alpha(salmonBase, 0.7);
 
 export const horizonTheme = createTheme({
