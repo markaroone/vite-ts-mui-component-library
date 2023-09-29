@@ -54,8 +54,8 @@ export const horizonTheme = createTheme({
               backgroundColor: '#6C8AA3',
             },
             '&.Mui-disabled': {
-              bacgroundColor: 'inherit',
-              color: 'inherit',
+              background: '#EAEAEA',
+              color: '#C0C0C0',
             },
           },
         },

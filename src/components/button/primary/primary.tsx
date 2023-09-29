@@ -12,14 +12,7 @@ export const PrimaryButton = styled(Button, {
     backgroundColor: '#6C8AA3',
   },
   '&.Mui-disabled': {
-    // background: '#F3F3F3',
-    // color: '#DADADA',
-    background: 'inherit',
-    color: 'inherit',
+    background: '#EAEAEA',
+    color: '#C0C0C0',
   },
 });
-
-PrimaryButton.defaultProps = {
-  ...PrimaryButton.defaultProps,
-  variant: 'contained',
-};
