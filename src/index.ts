@@ -1,2 +1,3 @@
 export * from './components';
-export * from './theme/horizonTheme';
+export * from './theme';
+export * from './utils';
