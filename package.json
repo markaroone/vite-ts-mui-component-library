@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/markaroone"
   },
-  "version": "0.0.15",
+  "version": "0.0.17",
   "description": "",
   "main": "dist/index.cjs.js",
   "type": "module",
@@ -42,6 +42,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.11",
     "react": "^18.2.0",
+    "@fontsource-variable/open-sans": "^5.0.14",
+    "@fontsource/roboto": "^5.0.8"
+  },
+  "dependencies": {
     "@fontsource-variable/open-sans": "^5.0.14",
     "@fontsource/roboto": "^5.0.8"
   }
