@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/markaroone"
   },
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "",
   "main": "dist/index.cjs.js",
   "type": "module",
@@ -23,6 +23,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.8.9",
     "@types/react": "^18.2.23",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",

@@ -1,14 +1,5 @@
 import { Components } from '@mui/material';
 
-declare module '@mui/material/Button' {
-  interface ButtonPropsColorOverrides {
-    custom: true;
-  }
-  interface ButtonPropsVariantOverrides {
-    horizonPrimary: true;
-  }
-}
-
 export const MuiButton: Components['MuiButton'] = {
   variants: [
     {

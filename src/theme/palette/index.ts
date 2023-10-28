@@ -1,15 +1,5 @@
 import { ThemeOptions, alpha, getContrastRatio } from '@mui/material';
 
-declare module '@mui/material/styles' {
-  interface Palette {
-    custom: Palette['primary'];
-  }
-
-  interface PaletteOptions {
-    custom?: PaletteOptions['primary'];
-  }
-}
-
 const salmonBase = '#FF5733';
 const salmonMain = alpha(salmonBase, 0.7);
 
